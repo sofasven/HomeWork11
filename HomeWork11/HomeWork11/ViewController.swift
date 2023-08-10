@@ -14,13 +14,13 @@ final class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var progressView: UIProgressView!
-    @IBOutlet weak var slider: UISlider!
-    @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var datePicker: UIDatePicker!
-    @IBOutlet weak var lblTime: UILabel!
-    @IBOutlet weak var switchOutlet: UISwitch!
-    @IBOutlet weak var btn: UIButton!
+    @IBOutlet private weak var progressView: UIProgressView!
+    @IBOutlet private weak var slider: UISlider!
+    @IBOutlet private weak var textField: UITextField!
+    @IBOutlet private weak var datePicker: UIDatePicker!
+    @IBOutlet private weak var lblTime: UILabel!
+    @IBOutlet private weak var switchOutlet: UISwitch!
+    @IBOutlet private weak var btn: UIButton!
     
     
     @IBAction func sliderValueChange(_ sender: UISlider) {
